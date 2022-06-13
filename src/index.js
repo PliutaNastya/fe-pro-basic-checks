@@ -3,7 +3,7 @@
  * @param {string} string
  * @returns {string}
  */
-export const capitalizeString = (string) => string.split(' ').map((stringWord) => `${stringWord[0].toUpperCase()}${stringWord.slice(1).toLowerCase()}`).join(' ');
+export const capitalizeString = (string) => string.split(' ').map((stringWord) => `${stringWord[0].toUpperCase()}${stringWord.slice(1)}`).join(' ');
 
 /**
  * Должна быть function declaration
